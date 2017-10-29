@@ -1,0 +1,180 @@
+<html>
+
+<head><title>The History of Sweden</title>
+
+<link href="stylesheet.css" rel="stylesheet">
+<style type="text/css">
+body {
+	bgcolor: #000000;	
+	color: #ffffff;
+	
+}
+
+
+</style>
+
+<!--Kelsey Cameron
+	February 21, 2012
+	Period 2
+	Web Design II-->
+	
+<script language="Javascript">
+var YourName
+
+YourName=window.prompt("Please enter your name. ")
+
+while (YourName == ""){
+
+	YourName = window.prompt("Please enter your name. ")
+ 	
+
+}
+
+	ConfirmStatus = window.confirm("Thank you " + YourName + "!  " + "Welcome to my website! ")
+
+if (ConfirmStatus == true){
+	alert("I'm glad you like my website!")
+
+}
+if (ConfirmStatus == false) 
+{
+
+	alert("I'm SO sorry for trying to be nice!")
+
+
+}
+
+
+
+function chngSite(){
+
+location="http://www.visitsweden.com/sweden/Sweden-Facts/"
+
+}
+
+
+
+imageURL="swedenppl.jpg"
+function people(){
+
+if (imageURL == "swedenppl.jpg"){
+
+	imageURL = "swedenppl2.jpg"
+}
+else
+{
+
+	imageURL = "swedenppl.jpg"
+}
+document.ppl.src = imageURL;
+}
+
+
+ 
+ </script>
+
+
+</head>
+<div class="links">
+
+<a href="index.htm">Click here to go back to the main page</a><br />
+<a href="norway.htm">Click here to visit Norway!</a>
+
+</div>
+<body color="#ffffff" bgcolor="#000000">
+<br />
+
+ <div class="table">
+
+ <table frame="box" border="2" bordercolorlight="#FFFFFF" bordercolordark="#cccccc" align="center" valign="center" bgcolor="#3333FF" cellspacing="10" cellpadding="5">
+
+
+        <th colspan="5" align="center" valign="center"><a href="" onMouseOver="color: #cccccc">Sweden Facts</a></th>
+
+    
+    </tr>
+    <tr>
+    	<td>Capital:		Stockholm</td>
+        <td>Founded no later than c. 1250, possibly as early as 1187, Stockholm has long been one of Sweden's cultural, media, political, and economic centres. </td>
+        <td>Its strategic location on 14 islands on the south-central east coast of Sweden at the mouth of Lake Mälaren, by the Stockholm archipelago, has been historically important.</td>
+        <td>Stockholm has been nominated by GaWC as a global city, with a ranking of Alpha-. In The 2008 Global Cities Index, Stockholm ranked 24th in the world, 10th in Europe, and first in Scandinavia.  Stockholm is known for its beauty, its buildings and architecture, its abundant clean and open water, and its many parks. It is sometimes referred to as Venice of the North.</td>
+        <td><a href="#imageSwitch" onMouseOver="document.images[0].src='swedenarms.png'" onMouseOut="document.images[0].src='swedenarms2.jpg'"><img src="swedenarms2.jpg" height="250px" width="300px" name="arms" /><br /></a></td>
+    
+    
+    
+    </tr>
+    <tr>
+        <td>
+Population:		9.3 million</td>
+        <td><script>document.write("Hello " + YourName + "!" + "<br />")</script></td>
+        <td>
+<font color="#000000"><b>
+<script>
+
+
+var a = "There were many notable people in the History of Sweden:         "
+var b = "Bridget of Sweden, "
+var c = "Anders Celsius, "
+var d = "and Carl Linnaeus.  "
+var e = a + b + c + d;
+
+document.write(e)
+
+
+
+
+
+
+
+</script><br /></font></b>
+<a href="http://en.wikipedia.org/wiki/Swedes">Click here to see more information about these people!</a></td>
+        <td>These people are considered to be Swedes, meaning they are from Sweden.</td>
+        <td><img src="swedenppl.jpg" height="250px" width="300px" name="ppl" /><br /><input type="button" value="Change image." onclick="people()" /></td>
+
+    </tr>
+    <tr>
+        <td rowspan="2">Sovereign: King Carl<br /> XVI Gustaf (1973)<br /><br /><br /><br /><br /><br />
+
+Prime Minister: Fredrik Reinfeldt (2006)
+<br /><br /><br /><br />
+<br /><br /><br /><br />
+
+Currency:		6.6785 US dollars = 1 krona = 100 öre
+</td>
+        <td>Sweden played a leading role in the second<br /> phase (1630–1635) of the Thirty Years' War (1618–1648).</td>
+        <td>By the Treaty of Westphalia (1648), Sweden obtained<br /> western Pomerania and some neighboring territory<br /> on the Baltic.</td>
+        <td>In 1700, a coalition of Russia, Poland, and Denmark united against Sweden and by the Peace of Nystad (1721)<br /> forced it to relinquish Livonia, Ingria, Estonia,<br /> and parts of Finland.<br /><br /> Sweden emerged from the Napoleonic Wars with the acquisition of Norway from Denmark and with a new <br />royal dynasty stemming from Marshal Jean Bernadotte<br /> of France, who became King Charles XIV (1818–1844).<br /><br /> The artificial union between Sweden and Norway<br /> led to an uneasy relationship, and the union was<br /> finally dissolved in 1905, although Sweden maintained a position of neutrality in both world wars.
+</td>
+        <td><img src="carl.png" height="300px" width="300px" name="carl" onMouseOver="document.images[2].src='fred.jpg'" onMouseOut="document.images[2].src='carl.png'" /></td>
+    
+    
+    
+    
+    </tr>
+    <tr>
+     
+        <td>Political system:	Parliamentary democracy
+	</td>
+        <td>Krona can be pronounced many different ways.  </td>
+        <td>Some people say Crow-Nah, others say Crowns, and still others say Crons.</td>
+        <td><img src="krona1.jpg" align="right" height="300px" width="300px" name="krona" onMouseOver="document.images[3].src='krona2.jpg'" onMouseOut="document.images[3].src='krona1.jpg'" /></td>
+    
+    
+    
+    </tr>
+
+
+
+
+
+</table> 
+<input type="button" onclick="chngSite()" value="Click to see another cool website!" /><br />
+<script>
+ 
+document.write("Today's date is ", Date())
+
+</script> 
+ </div>
+ 
+ </body>
+ 

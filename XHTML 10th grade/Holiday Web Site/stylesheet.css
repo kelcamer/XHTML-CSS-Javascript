@@ -1,0 +1,103 @@
+/*	Kelsey Cameron
+	Period 2
+	Web Design II	*/
+
+
+
+.links {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;	
+}
+
+li.below	{
+	position: absolute;
+	top: 165px;
+	left: 25px;
+	z-index: 1;
+	color: #FFFF00;	
+	font-size: 75px;
+	}
+
+
+
+
+
+.colortext, h3 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #F54316;
+	text-align: center;
+}
+
+
+
+div.textalign {
+	text-align: justify;
+	text-align: right;
+	
+	margin-left: 5em;
+	
+		
+	
+	
+}
+h1, h2 {
+	text-align: center;
+	font-size: 3.5em;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-family: snap ITC;
+	font-weight: 100;
+	font-style: 0px;
+	line-height: 70px;
+	font-variant: inherit;
+	}
+.navigation {position: absolute;
+			top: 0px;
+			left: 0px;
+			font-family: Arial, Helvetica, sans-serif;
+			padding: 1em;
+			text-align: center;
+			padding-top: 10em;
+			padding-bottom: .5em;
+			padding-left: 1em;
+			padding-right: 1em;
+			font-family: arial, helvetica, sans-serif;
+			font-size: 1.2em;
+			font-weight: bold;	
+}
+
+
+blockquote, h5	{
+	box-shadow: #FFFF66;
+	font-family: snap ITC;
+	color: #993366;
+	font-variant: small-caps;
+	font-size: 60;
+	
+	
+	
+}
+table, th, td
+{
+	border: 0px;
+	background-color: #70F1EE;
+
+}
+span.margin{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-transform: uppercase;
+	text-shadow: #FF3300;
+	text-indent: hanging;
+	
+
+	
+}
+h6 {
+	text-decoration: blink;
+	vertical-align: text-bottom;
+}

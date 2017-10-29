@@ -1,0 +1,14 @@
+.bullet-term {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333;
+}
+.paragraph_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.small_text {	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+}

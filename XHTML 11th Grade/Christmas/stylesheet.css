@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+li{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+	
+	
+	
+}
+p{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bolder;		
+	
+	
+	
+}
+blockquote.name{
+	font-family: "vladimir Script";
+	font-size: 18px;
+	font-weight: bold;
+	color: #003;
+	
+	
+	
+}
+
+h2{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	color: #F33;	
+	
+	
+}
+
+h3, h4, h5, h6{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;	
+	
+	
+}
+.format{
+	font-size: 14px;
+	font-style: oblique;
+	line-height: normal;
+	font-weight: bold;
+	color: #0F3;
+	font-family: "Comic Sans MS", cursive;
+	
+	
+	
+}
+.banner {
+	background-image: url(Assets/banner1.jpg);
+	height: 250px;
+	width: 975px;
+	background-position: absolute;
+}
+body{
+	font-family: Georgia, "Times New Roman", Times, serif;		
+	
+}
+div.body{
+	margin-top: 200px;
+	margin-right: 100px;
+	position: absolute;
+	height: 800px;
+	width: 650px;
+	background-color: #000000;
+	left: 56px;
+	top: 354px;
+	color: #FFFFFF;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	float:  absolute;
+	margin: auto;
+	border: solid;
+	padding: inherit;
+	img
+opacity:0.4;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+
+}
+a{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: .825em;
+	line-height: normal;
+	font-weight: bold;
+	font-style: oblique;
+	font-variant: normal;
+	
+	
+	
+}
+
+body.main {background-image: url(assets/snowflake.gif); 
+	background-repeat: repeat-x repeat-y;
+	
+
+	}
+
+table, th, td{
+	
+	z-index:!important;
+	font-weight: bold;
+	color: #FFF;
+
+
+}
+.stupidtable{
+	background-color: #F00;
+	position: absolute;
+	margin-bottom: 200px;
+	margin-left: 50px;
+	z-index: inherit;
+	left: 50px;
+	top: 350px;
+	
+	
+	z-index:!important;
+	color: #03C;
+}
+.stupidtable2{
+	background-color: #F00;
+	position: absolute;
+	margin-bottom: 200px;
+	margin-left: 50px;
+	z-index: inherit;
+	left: 50px;
+	top: 350px;
+	
+	
+	z-index:!important;
+	color: #FFF;
+}
+.greentable{
+	background-color: #363;
+	position: absolute;
+	margin-bottom: 200px;
+	margin-left: 50px;
+	z-index: inherit;
+	left: 6px;
+	top: 353px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	width: 950px;
+	padding: 15px;
+	
+}
+h1{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 8em;
+	font-weight: bold;
+	color: #F00;
+	font-style: oblique;
+	line-height: normal;
+	font-variant: normal;	
+}
+.main .stupidtable tr td {
+	color: #FFF;
+}
+.blue {
+	color: #333;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+}

@@ -1,0 +1,30 @@
+.list_headings {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333;
+}
+.small_text {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	position: relative;
+	width: 950px;
+}
+.body_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+.feature_item {
+	font-size: 14px;
+	font-weight: bold;
+	color: #003;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	color: #333;
+}

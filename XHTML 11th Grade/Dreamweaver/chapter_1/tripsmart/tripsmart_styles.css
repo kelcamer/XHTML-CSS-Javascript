@@ -1,0 +1,18 @@
+.paragraph_text {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	color: #F3C;
+}
+.list_heading {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0F3;
+}
+.list_term {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #63F;
+}

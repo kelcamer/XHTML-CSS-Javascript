@@ -1,0 +1,23 @@
+
+
+/* Kelsey Cameron
+	September 20, 2011
+	Period 2
+	Web Design II */
+/* External Style Sheet */
+
+body	{
+	background: #000000;
+	color: #ffffcc;
+	}
+h1	{
+	font: 14pt garamond;
+	color: #cccccc
+	}
+p	{
+	font: 12pt arial;
+	}
+A	{
+	color: #ff0000;
+	text-decoration: none;
+	}

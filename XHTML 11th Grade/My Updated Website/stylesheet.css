@@ -1,0 +1,138 @@
+/* I also know CSS */
+
+.rainbow{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFF;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 200px;
+	width: 703px;
+	background-image: url(assets/rainbow1.gif);
+	left: 103px;
+	top: -47px;
+	height: 696px;
+	background-color: #000;
+	
+}
+h4{
+	text-decoration: underline; 	
+	
+}
+div.move{
+	position: absolute;
+	left: 200px;	
+	
+	
+	
+}
+div.intro{
+	position: absolute;
+	width: 250px;
+	height: 1611px;
+	left: 20px;
+	top: 111px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #009;
+	font-size: 16px;
+	text-indent: 20px;
+	
+	
+}
+div.sidebar{
+	position: absolute;
+	width: 216px;
+	margin-left: 10px;
+	left: 11px;
+	top: 29px;
+	height: 1581px;
+	font-size: 14px;
+	background-color: #F0C;
+	font-weight: bold;
+	color: #30C;
+	
+	
+	
+}
+div.fb{
+	position: absolute;
+	margin-top: 500px;
+	margin-left: 200px;
+	width: 500px;
+	height: 325px;
+	left: 163px;
+	top: 609px;
+	background-color: white;
+	
+	
+}
+div.main{
+	height: 4000px;
+	width: 900px;
+	position: absolute;
+	left: -256px;
+	margin-left: 300px;
+	margin-right: 300px;
+	border: 5;
+	color: #FFF;
+	font-size: 16;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	top: 454px;
+	
+}
+.yellow {
+	color: #FF0;
+}
+div.story{
+	height: 7550px;
+	width: 425px;
+	position: absolute;
+	margin-left: 350px;
+	margin-right: 300px;
+	border: 5;
+	color: #000;
+	font-size: 16;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	left: -285px;
+	top: 58px;
+	background-color: #FFF;
+	border: 1px;
+	
+}
+div.story2{
+	height: 7550px;
+	width: 429px;
+	position: absolute;
+	margin-left: 300px;
+	margin-right: 300px;
+	border: 5;
+	color: #000;
+	font-size: 16;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	left: 221px;
+	top: 57px;
+	border: 1px;
+	background-color: #FFF;
+	
+	
+	
+}
+.blue {
+	color: #0FF;
+}
+.text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #FFF;
+	text-align: center;
+}
+.green {
+	color: #0F0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+}

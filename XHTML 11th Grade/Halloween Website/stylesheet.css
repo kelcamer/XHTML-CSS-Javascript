@@ -1,0 +1,129 @@
+body{
+	background-color: #000000;
+		background-image: url('moon.jpg') no repeat;	
+}
+span.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #FF3333;
+}
+div.Vlad{
+	position: absolute;
+	margin-top: 500px;
+	margin-right: 10px;
+	left: 550px;
+	top: 197px;
+
+	
+	
+}
+div.images{
+	position: absolute;
+	margin-bottom: 100px;
+	height: 158px;
+	width: 738px;
+	bottom: -1063px;
+	left: 8px;
+	
+}
+h1{
+	font-size: 18px;
+	color: white;
+	font-family:"Courier New", Courier, monospace;
+	font-weight: bold;
+	font-variant: blink;	
+	
+}
+h2{
+	font-size: 16px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: rgb(255,255,255);
+	
+	font-weight: 500;	
+	
+	
+	
+}
+h3{
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	font-weight: 300;	
+	font-weight: bold;
+	
+	
+}
+h4,h5{
+	
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: rgb(255,255,255);
+	font-weight: 300;	
+	font-weight: bold;
+	
+	
+}
+span, blockquote
+{
+	
+	
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+	font-weight: 300;	
+	font-weight: bold;
+	
+}
+div.bram{
+	position: absolute;
+	margin-top: 400px;
+	margin-right: 10px;
+	height: 200px;
+	width: 150px;
+	left: 551px;
+	top: -100px;
+	
+	
+}
+.white {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+}
+a{
+	font-size: 14px;
+	font-style: normal;
+	font-family: Calabri;
+	color: #00FF00;
+	text-transform: blink;
+	font-variant: normal;
+	
+	
+}
+
+div.body{
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	color: white;
+	left: 52px;
+	top: 161px;
+	width: 451px;
+	height: 747px;
+	
+	
+	
+	
+}

@@ -1,0 +1,153 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on HTML and XHTML
+   Tutorial 8
+   Review Assignment
+
+   Mount Rainier News
+   Author: 
+   Date:   
+
+   Filename:         rainier.htm
+   Supporting files: bar.gif, CreditRoll.class, guitar.jpg, logo.gif, song.au,
+                     song.mp3, song.wav, mrim2.avi, mrim2.jpg, mrim2.mov
+-->
+<title>Mount Rainier News</title>
+<style type="text/css">
+   body {background: white url(bar.gif) repeat-y; color: gray; font-size: 10pt}
+   h1, h2, h3, h4, h5, h6, a {font-family: sans-serif; color: rgb(102,102,102)}
+   #mainpage {width: 100%; margin-left: 150px; border-right: 1px solid rgb(128,128,255)}
+   #head img {width: 360; height: 76}
+
+   #linklist {position: absolute; top: 110; left: 5; width: 140px; padding: 5px}
+   #linklist h5 {margin-bottom: 0px}
+   #linklist p {margin-top: 0px}
+   #linklist a:link, #linklist a:visited {color: rgb(128,128,255); font-size: 8pt; 
+                                          text-decoration: none}
+   #linklist a:hover {text-decoration:underline; color: rgb(102,102,102)}
+   #linklist a:active {color: rgb(128,128,255)}
+
+   #head {border-bottom: 1px solid rgb(128, 128, 255); width: 100%}
+
+ 
+
+   #articles {float: left; padding: 10px; width: 50%; border-right: 1px solid rgb(128,128,255)}
+   .firstp:first-letter {float: left; font-size: 300%; line-height: 0.75}
+   #media {float: left; padding: 10px}
+   #media h3 {text-align: center}
+   #media1, #media2 {text-align: center; font-size: 8pt; font-family: sans-serif}
+</style>
+</head>
+
+<!--Kelsey Cameron
+	Web Design II
+	April 23, 2012
+	Period 2-->
+
+<body>
+<div id="weather">
+
+<applet code="CreditRoll" width="200" height="70">
+
+
+
+<param name="BGCOLOR" value="CECECE" />
+<param name="TEXTCOLOR" value="8080FF" />
+<param name="FADEZONE" value="1" />
+<param name="FONT" value="Times New Roman" />
+<param name="URL" value="http://www.nps.gov/mora/current/weather.htm" />
+<param name="REPEAT" value="yes" />
+<param name="SPEED" value="120" />
+<param name="VSPACE" value="120" />
+<param name="FONTSIZE" value="10" />
+<param name="TEXTx" value="
+TODAY
+Partly Sunny
+
+TONIGHT
+Showers with sleet
+
+TUESDAY
+Rain/Snow heavy at times
+
+WEDNESDAY
+Clearing
+
+Click to view Weather Site
+ " />
+
+
+
+</applet>
+</div>
+<div id="linklist">
+   <h5>About the Park</h5>
+   <p><a href="#">Mt. Rainier Natn'l Park</a><br />
+   <a href="#">Mt. Rainier Associates</a><br />
+   <a href="#">Visitor Centers</a><br />
+   <a href="#">Campgrounds</a><br />
+   <a href="#">Picnic Areas</a><br />
+   <a href="#">Food & Lodging</a><br />
+   <a href="#">Climbing Information</a><br />
+   <a href="#">Winter Recreation</a></p>
+   <h5>Visitor Centers</h5>
+   <p><a href="#">Longmire</a><br />
+   <a href="#">Paradise</a><br />
+   <a href="#">Ohanapecosh</a><br />
+   <a href="#">Sunrise</a><br />
+   <a href="#">Mowich Lake</a></p>
+   <h5>Current News</h5>
+   <p><a href="#">Weather Forecast</a><br />
+   <a href="#">Road Conditions</a><br />
+   <a href="#">Trail Conditions</a></p>
+</div>
+
+<div id="mainpage">
+<div id="head">
+   <img src="logo.gif" alt="Mount Rainier News" />
+</div>
+
+<div id="articles">
+   <div id="article1">
+   <h3>Autumn Folk Festival</h3>
+   <p class="firstp">From September 10th - 12th, come to Sunrise for the annual 
+   autumn folk festival. The Sunrise Festival is quickly becoming one of the
+   Northwest's top folk events, with intimate performances from 
+   world-famous troubadours. Camping spots are still available at Sunrise
+   campground, but they're going fast.</p>
+   <p>In addition to song sharing in the campground every 
+   evening during the festival, there'll be workshops, great food and 
+   craft vendors. Call Maria Thompson at 555-9011 for camping information.
+   Call Ted Cashman (555-8122) to sign up for one of the workshops.</p>
+  </div>
+  <div id="article2">
+  <h3>Visitors Prepare to Meet MRIM</h3>
+   <p>Want to see what it's like to hover over Columbia Crest at 14,400 feet,
+   or ski down the Ingraham Glacier without fear of falling? Then visit
+   <b>MRIM</b>, the Mount Rainier Interactive Map now available at the 
+   Paradise visitors' center.</p>
+   <p>MRIM uses state-of-the-art computer animation combined with
+   data from geological satellites to help you explore places you might
+   never visit on foot. The results of your journey are displayed on a 
+   large screen monitor - perfect for group presentations or individual
+   explorations. Contact Doug LeCourt at Paradise for more information.</p>
+  </div>
+</div>
+
+<div id="media">
+  <h3>Media Clips</h3>
+  <div id="media1">
+      <img src="guitar.jpg" alt="" /><br />
+      Listen to last year's festival <br /><br />
+	<embed src="song.wav" width="145" height="60" autostart="false" />
+  </div>
+  <div id="media2">
+     <embed src="song.avi" width="200" height="200" autostart="false" /><br />
+      Preview a clip from MRIM<br /><br />
+  </div>  
+</div>
+</div>
+<embed src="welcome.mp3" height="0" width="0" autostart="true" />
+</body>
+</html>

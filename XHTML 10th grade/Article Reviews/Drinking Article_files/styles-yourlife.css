@@ -1,0 +1,303 @@
+﻿/****************************GENERAL STYLING FOR YOUR LIFE****************************/
+body {background-image: url("../images/bg_yourlife3.jpg");background-repeat:repeat-x;}
+
+
+/*Navigation*/
+#section-nav .navItem ul{background:#862e7a; }
+.noborder{border-left: none;}
+#section-nav span.divider {display: none;}
+#section-nav .navItem .leftdrop{background:#01561D; border:1px solid #fff;}
+#section-nav li ul a {border-top:1px solid #edcce4;}
+#section-nav li ul .emptyItem{border-top:1px solid #875D76;}
+#section-nav li ul .first a {border-top:0;}
+#section-nav li.navShiftRight ul.column2 {right:-270px;}
+.grey-section-background {background: #E7E7E7; border-bottom: 1px solid #CFCFCF; height: 33px; left: 0; top: 136px; position: absolute; width: 100%;}
+#usat_launchpad {clear:both; position: relative; top: -1px; margin-top: 5px;}
+#ft a {color: #00529b;}
+.spike.money {background-position: 0 -15px;}
+#site-search-submit { border: 0 none;left: 218px;position: absolute;top: 0;}
+#section-nav{margin-top: 30px; height: 24px;}
+
+/* UAS */
+
+#usat_uas a {font-weight: normal; color: #FFFFFF;}
+.uasGreeting {
+    font-weight: bold;
+    margin-right: 30px;
+    position: relative;
+    top: 100px;
+}
+.uasPageControls {
+    display: block;
+    margin-right: 36px;
+    position: relative;
+    top: 100px;
+}
+
+.uasAvtMsgs {display: none;}
+.uasAvtPhoto img {position: absolute; top: -2px; right: 0; width: 30px; height: 30px;}
+.leaderboard-ad {z-index: 20; position: relative; text-align: center; margin: 0 0 12px 0; border-bottom:1px solid #E7E7E7; padding-bottom:15px; }
+/*.grey-background {height: 113px; width: 100%; background: #DEDEDE; border-bottom:1px solid #ccc; position: absolute; left: 0px; display: block;}*/
+#usat_headline, #adcontainer___gelement_adbanner_0, #__gelement_0{ display: none;}
+.dropdown-nav a{border-right: none;}
+
+
+/****************************HOME PAGE****************************/
+body.home .usat_masthead h1 a {display: block; text-indent: -5000px; background: transparent url(../images/logo-yourlife2.png) no-repeat 0px 21px; width: 232px; height: 50px; padding-top: 33px;}
+body.home .pre-nav .search {background: url("../images/google-icon.png") no-repeat scroll 0 0 #650544; height: 23px; left: 230px; padding-left: 25px; position: absolute; top: 35px; width: 190px;}
+.home .pre-nav .subscribe { left: 477px; position: absolute; top: 40px;}
+body.home .pre-nav .mobile { border-left: 1px solid #BF8FBE; left: 600px; position: absolute; top: 40px;}
+body.home .pre-nav .search-enter { background-color: #650544; border: 0 none; font-size: 11px; width: 295px;}
+body.home .usat_masthead h2{display:none;}
+body.home .uasAvtPhoto img { height: 30px; position: absolute; right: 0; top: 93px; width: 30px;}
+
+/****************************SUBFRONT PAGES****************************/
+body.subfront { background-image: url("../images/bg_yourlife2.jpg");background-repeat:repeat-x;}
+/*Search, subscribe and mobile*/
+body.subfront .pre-nav .search {height: 23px; left: 480px; padding-left: 25px; position: absolute; top: 15px; width: 190px;
+}
+body.subfront .pre-nav .search form {margin-top: 3px;}
+body.subfront .pre-nav .search-enter {width: 295px; font-size: 11px; color: #AACFB9 !important; border: 0;}
+body.subfront .pre-nav .mobile {border-left: 1px solid #B8C6D4; left: 414px; position: absolute; top: 20px;
+}
+body.subfront .pre-nav .subscribe { left: 290px; position: absolute; top: 20px;
+}
+/*Subfront titles*/
+
+body.subfront .usat_masthead h2 a {color: #FFFFFF; display: block; font-size: 28px;  height: 53px; line-height: 54px;  margin-left: 86px;}
+
+body.subfront .usat_masthead h2 a:hover {color: #FFFFFF; display: block; font-size: 28px;  height: 53px; line-height: 54px;  margin-left: 86px; text-decoration:none;}
+body.subfront .usat_masthead h1 a {  background: url("../images/usat-sub-logo.png") no-repeat scroll 0 0 transparent;  border-right: 1px solid #FFFFFF; display: block;  float: left;  height: 38px; padding-right: 8px;  padding-top: 0; position: relative; text-indent: -5000px; top: 8px; width: 70px}
+
+.subfront .uasGreeting {
+    font-weight: bold;
+    margin-right: 30px;
+    position: relative;
+    top: 0px;
+}
+.subfront .uasPageControls {
+    display: block;
+    margin-right: 36px;
+    position: relative;
+    top: 0px;
+}
+/****************************STORY PAGES****************************/
+
+/*masthead */
+.aboutdiv
+{
+    border-top: 1px solid #CCCCCC;
+}
+.yourlifebody .usat_masthead h1 a { border-right: none;}
+.yourlifebody ul.global-nav li { border-left: 1px solid #333333; float: left; font-size: 11px; height: 16px; margin-top: 0px;  padding: 0; text-align: center; width: 107px;}
+.yourlifebody #section-nav li.navItem {
+    display: block;
+    float: left;
+    padding: 0;
+    position: relative;
+    margin-top: -10px;
+}
+.yourlifebody #section-nav .navItem ul.dropdown-nav {
+    background: none repeat scroll 0 0 #772761;
+}
+.yourlifebody #section-nav li ul a {
+    background: none repeat scroll 0 0 transparent;
+    border-top: 1px solid #EDCCE4;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0;
+    padding: 4px 0;
+    text-align: left;
+    width: 140px;
+}
+
+.yourlifebody  #section-nav {
+    float: left;
+    height: 0;
+}
+.yourlifenav #section-nav {
+    margin-top: 20px;
+}
+.yourlifenav #section-nav a {
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    height: auto;
+}
+.yourlifenav .uasPageControls {
+    display: block;
+    float: right;
+    margin-right: 36px;
+}
+.yourlifenav .uasGreeting {
+    float: right;
+    margin-right: 30px;
+    margin-top: -3px;
+}
+.YLstory .yourlifenav .uasPageControls {
+    display: block;
+    float: right;
+    margin-right: 36px;
+    margin-top: -88px;
+}
+.YLstory .yourlifenav .uasGreeting {
+    float: right;
+    margin-right: 30px;
+    margin-top: -100px;
+}
+
+
+/* search bar mobile etc*/
+.yourlifebody  .pre-nav .search {
+    background: url("http://i.usatoday.net/_fronts2010/_i/v2/google-icon.png") no-repeat scroll 0 0 #6E1F57;
+}
+.yourlifebody  .pre-nav .search-enter {
+    background-color: #6E1F57;
+}
+.yourlifebody .pre-nav .subscribe {
+    left: 265px;
+    position: absolute;
+    top: 10px;
+}  
+.yourlifebody .pre-nav .search {
+    left: 465px;
+    position: absolute;
+    top: 4px;
+}  
+.yourlifebody .pre-nav .mobile {
+    left: 385px;
+    position: absolute;
+    top: 10px;
+}    
+    
+#usat_uas {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+}
+
+/**************************** PAW PRINT POST ****************************/
+.petphotos
+{
+     background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 5px 5px;
+    display: block;
+    height: 265px;
+}
+.petphotos img
+{
+    width: 90px;
+    margin-bottom: 2px;
+}
+.petphotos h2
+{
+    margin-top: -10px;
+}
+.petphotos a {
+    color: #00529B;
+    float: left;
+    font-size: 85%;
+    font-weight: lighter;
+    height: 110px;
+    padding-left: 2px;
+    text-align: center;
+    width: 95px;
+}
+
+#logoholder {
+    background-image: url(../images/logo_pawprintpost.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 70px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    width: 258px;
+}
+#logoholderkindness {
+    background-image: url(http://i.usatoday.net/yourlife/_common/_images/kindness-logo.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 70px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    width: 258px;
+}
+.pawprint #bd
+{
+    border-top: 1px solid #d6d6d6;
+    padding-top: 20px;
+}
+#logoholder h1, #logoholderkindness h1
+{
+     width: 258px;
+    height: 70px;
+    text-indent: -1000px;
+}
+#logoholder h1 a, #logoholderkindness h1 a
+{
+     width: 258px;
+    height: 70px;
+    display:block;
+}
+.bluebullet
+{
+    width: 8px;
+    height:8px;
+    display:inline-block;
+    background-image: url(../images/blue_list_bullet.png);
+    margin-right: 8px;
+}
+.inside-head {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 32px;
+    margin-top: 90px;
+    padding: 0 1px 0 0;
+    text-align: left;
+}
+
+/* Personalizing the comment bar for the paw print post index page*/
+.info-extras {
+    background: none repeat scroll 0 0 #EFEFEF;
+    clear: both;
+    display: block;
+    float: none;
+    height: 20px;
+    margin: 5px 0;
+    overflow: visible;
+    width: 632px;
+}
+#blogpost .info-extras ul li {
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: none;
+    padding: 5px 0;
+}
+#blogpost .info-extras  ul li {
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+.info-extras .addthis_toolbox .info-extras-left {
+    float: left;
+    width: 65% !important;
+}
+#blogpost .info-extras img {
+    border: none;
+    float: left;
+    margin: 0px 5px;
+}
+#blogpost .info{
+    border-top:none;
+}

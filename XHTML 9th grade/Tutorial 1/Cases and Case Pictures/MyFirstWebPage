@@ -1,0 +1,87 @@
+<html>
+
+<head><title>My First Webpage</title></head>
+
+<!--Kelsey Cameron
+	August 26, 2010
+	Period 3
+	Web Design 1-->
+
+<body bgcolor="yellow">
+
+<center><h1>&#183;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kelsey Cameron&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#183;</h1>
+
+1151 Needlewood Loop
+
+<br />
+
+Oviedo, Fl 32765
+
+<p />
+
+<img src="blood.gif" alt="blood bar" />
+
+<br />
+
+<img src="mummy.gif" alt="mummy" />
+
+<!--Horizontal Rule-->
+
+<hr color="Green" Size="10" width="75%" />
+
+</center>
+
+<!--Ordered List-->
+
+<ol type="I"><h2>Favorite Foods</h2>
+	<li><b><i><u>Pizza</u></i></b></li>
+	<li><i>Hamburger</i></li>
+	<li><u>Icecream</u></li>
+
+<hr color="Green" Size="10" width="75%" />
+
+</ol>
+
+<p>
+
+<!--Unordered List-->
+
+<ul type="circle"><h3>Favorite Movie</h3>
+	<li>Inception</li>
+	<li><sub>Ground Hog Day</sub></li>
+	<li><big>Dirty Dancing</big></li>
+	<li><small>Avatar</small></li>
+	<li><tt>District 9</tt></li>
+
+<hr color="Green" Size="10" width="75%" />
+
+</ul>
+
+<p>
+
+<!--Definition List-->
+
+<dl><h4>Internet Terms</h4>
+	<dt>WWW</dt>
+		<dd>World Wide Web</dd>
+	<dt>XHTML</dt>
+		<dd>Extensive Hypertext Markup Language</dd>
+
+<hr color="Green" Size="10" width="75%" />
+
+</dl>
+
+<!--Unorderedlist using a graphic-->
+
+<ul style="list-style-image: url(cc.jpg)">Candy	
+	<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Good and 	Plenty</li>
+	<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skittles</li>
+	<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Candy Corn</li>
+	<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hershey's Kisses</li>
+</ul>
+
+&#169;
+
+</body>
+
+</html>

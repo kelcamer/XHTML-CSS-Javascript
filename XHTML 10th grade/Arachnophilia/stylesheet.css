@@ -1,0 +1,189 @@
+/*
+Kelsey Cameron
+Period 2
+Web Design II
+
+*/
+
+
+div.background{
+	background-image: url('hershey6.jpg');
+	width:100%;
+
+}
+h1{
+
+
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 40px;
+	font-face: Cursive, Snap ITC, Times new roman;
+	text-decoration: blink;
+	text-align: center;
+
+
+
+
+}
+
+img.center{
+	
+	display: block; margin-left: auto; margin-right: auto
+	
+	
+}
+hr{
+	
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	height: 5px;	
+	border: ridge;
+	
+}
+/*	First Chocolate Table			*/
+table.choc1{
+	position: absolute;
+	left: 250px;	
+	
+	
+	
+}
+table.choc6{
+	position: absolute;
+	top: 50px;
+	left: 10px;
+	height: 400px;
+	width: 520px;
+	background: #FF8A15;
+	color: #804000;
+	border: collapse;
+	
+	
+	
+	
+}
+blockquote.choc5{
+	height: 700px;
+	width: 400px;
+	background: #663300;
+	color: #FF8C1A;
+	position: absolute;
+	top: 0px;
+	right: 0px;	
+	
+	
+	
+	
+	
+}
+/*		Default for all Header 2s		*/
+h2{
+	color: #4F2EEB;
+	animation: infinite;
+	z-index: 1;
+	font-style: oblique;
+	font-size: 25px;
+	text-align: center;
+
+
+
+
+
+
+}
+a:hover{
+
+	color: #FFFFFF;
+	font-size: 20px;
+	font-face: Cursive;
+	text-decoration: underline;
+
+
+
+
+
+}
+table.choc3{
+
+
+position: absolute;
+top: 100px;
+left: 20px;
+height: 500px;
+width: 400px;
+border: 5px;
+
+
+background: #FFD1A4;
+border: collapse;
+
+
+
+}
+table.other{
+	position: absolute;
+	top: 850px;
+	left: 30px;	
+	background: #713800;
+	
+	
+	
+	
+	
+}
+font.brow{
+	
+
+	font-size: 16px;
+	font-family: "Courier New", Courier, monospace;
+	
+	
+}
+hr.hzr{
+	position: absolute;
+	top: 800px;
+	height: 5px;
+	width: 950px;	
+	color: #FFFFFF;
+	bgcolor: #FFFFFF;
+	
+	
+}
+a{
+
+	font-size: 20px;
+	font-face: Cursive;
+
+
+
+
+}
+h1.choc4{
+	font-size: 18px;
+	color: #6C3600;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-variant: none;	
+	text-decoration: underline;
+	
+	
+	
+	
+}
+blockquote.choc2{
+	background: #FF8204;
+	border: 5px;
+	height: 700px;
+	width: 300px;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	color: #FFCF9F;
+	font-weight: 500;
+	font-size: 16px;
+	font-family: "Comic Sans MS", cursive;
+	
+	
+	
+	
+}

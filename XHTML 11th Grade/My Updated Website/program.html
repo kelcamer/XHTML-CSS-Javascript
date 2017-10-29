@@ -1,0 +1,224 @@
+<!--Kelsey Cameron
+	I am a programmer, web designer, and future engineer and entrepreneur-->
+<html>  
+<head>
+
+<meta name="description" content="Looking for a Job">
+<meta name="keywords" content="Web Designer needed, programmer needed, piano player needed, jobs, music">
+<meta name="author" content="Kelsey Cameron">
+<meta charset="UTF-8">
+<style type="text/css">
+blue {
+	color: #0FC;
+}
+</style>
+<head>
+
+<title>Kelsey Cameron</title>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+body{
+	
+	background-color: #000;	
+	
+}
+div.format{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #00F;
+	width: 500px;
+	background-color: #C0F;
+	position: absolute;
+	left: 244px;
+	top: 253px;
+}
+div.background{
+	background-image: url(assets/background1.jpg);
+	height: 2200px;
+	width: 1000px;
+}
+div.egg1{
+	position: absolute;
+	margin-left: 300px;
+	margin-down: 2300px;
+	left: -254px;
+	top: 1921px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+<!--
+
+function virus() {
+
+alert("DANGER: Computer Hard drive at risk.  Click OK to activate an Anti-Malware to clean your computer!")
+
+}
+
+
+function show_prompt()
+{
+var count = 0
+var name=prompt("Would you like to launch the Virus Simulation?","");
+if (name== "yes" || name=="YES" || name=="Yes" || name=="yea" || name =="yeah" || name=="affirmative" || name =="Yeah" || name =="Yea" || name=="Affirmative")
+  {
+
+while(count >= 0  && count <= 100 || name=="no" || name=="no") {
+virus()
+
+count += 1;
+}
+  }
+
+
+
+
+
+}
+
+function show(){
+
+	alert("Be sure to press Control D on your keyboard, or bookmark this chatroom!!")
+
+
+
+
+}
+
+-->
+</script>
+</head>
+
+<body>
+
+<div class="background">
+
+
+
+
+<br /><br /><br />
+<div class="text"> Java Programming<br>
+  by Kelsey Cameron
+  <br>
+  <br>
+<ul id="menu" class="MenuBarHorizontal">
+  <li><a href="index.html">Home</a></li>
+<li><a href="Kelsey Cameron 2013 resume.doc">Resume</a></li>
+  <li><a href="program.html">Programmer</a></li>
+  <li><a href="music.html">Piano Player</a></li>
+  <li><a href="stories.html">Stories</a></li>
+</ul>
+</div>
+<br /><br /><br /><br /><br /><br />
+
+<div class="format"> 
+  <p>In 9th grade, I learned Visual Basic, in 10th grade, I learned both Java from the robotics team that I was on, and also C++ at school.   Now, I am in my school programming club, and I frequently program in Java. <br />
+    <br />
+    <span class="green"><span class="white">System.out.println("Did you understand that?");<br />
+    // Maybe you will like this</span></span> </p>
+  <p>I will put all Java coding in <span class="green"><span class="white">this</span></span> color.<br />
+    To demonstrate my capabilities, I will teach you all how to create a simple program exemplifying a conditional statement.<br>
+    <br>
+    Chloe goes to a restaurant.  Pizza costs $3.00, Spaghetti costs $2.50, and Soda costs $1.00.  Let Chloe pick how much of each item she wants, and then tell her the total price including a 7% sales tax. </p>
+  <p>(Don't forget <span class="yellow">import Java.util.*</span>)</p>
+  <p>Steps:</p>
+  <ol>
+    <li>Create five double variables; pizza, spag, and soda, total, and tax. A double variable simply means decimal.</li>
+  
+  <p class="white">double pizza = 0.0;<br>
+    double  spag = 0.0;<br>
+    double  soda = 0.0;<br>
+  double  total = 0.0;<br>
+  double  tax = 0.0;
+  </p>
+  <p>Keep in mind that the = in Java means assignment, which is substituting the value on the right for the value in the left. <br>
+    <span class="green">(Note:  It is good programming practice to set all double variables to 0.0, in case you accidentally use them.  If you fail to do this and attempt to use them, the compiler will give you a critical error that may possibly crash your computer) </span></p>
+  
+    <li>Create a scanner. <br>
+      <span class="green"><br>
+      </span><span class="white">Scanner scanny = new Scanner(System.<em style="color: #0CF">in</em>);</span><span class="green"><br>
+      </span><br>
+    </li>
+    <li>Tell the user that you want them to first type in the amount of pizzas they want, then the amount of spaghetti, and then the amount of sodas.<br>
+      <br>
+      <span class="white">System.out.println(&quot;First, type in how many pizzas you want, then how much spaghetti you want, and then how many sodas you want.&quot;);<br>
+      </span><br>
+    </li>
+    <li>Scan in all three values.<br>
+      <br>
+      <span class="white">pizza = scanny.nextDouble();<br>
+      spag = scanny.nextDouble();<br>
+      soda = scanny.nextDouble();
+      </span><br>
+      <br>
+      (Note: If you are working with strings, the class name is nextLine(), and for integers, it's nextInt())<br>
+      <br>
+    </li>
+    <li>Calculate the total by multiplying each variable by it's corresponding price, and add them together.<br>
+      <br>
+      <span class="white">total = (pizza * 3) + (spag * 2.5) + (soda * 1);</span><br>
+      <br />
+      </li>
+    <li>Calculuate Tax by taking the total and multiplying it by .07. (7%)<br>
+      <br>
+      <span class="white">tax = total * .07;</span><br>
+      <br>
+    </li>
+    <li>  Add the tax and the total together and replace the old total with the new total.<br>
+      <br>
+      <span class="white">total = tax + total; <br>
+      <br>
+      </span></li>
+    <li>Print the result.<br>
+      <br>
+      <span class="white">System.out.println(&quot;The total is &quot; + total);</span><br>
+      <br>
+      (Note: The + signifys concatentation, which means to connect two pieces of data, NOT addition in this case)<br>
+      <br>
+    </li>
+    <li>If you want your program to be readable to other programmers who may not be as experienced as you are, go back and add comments in the appropriate sections. :D<br>
+      <br>
+      <span class="white">// This is a comment.<br>
+      <br>
+      /*    This is a comment<br>
+      that<br>
+      is<br>
+      more<br>
+      than<br>
+      one<br>
+      line<br>
+      long */
+       <br>
+       <br>
+      This is my own personal Javascript program.  Fool your friends and make them think they have a virus on their computer! <br>
+      
+      <form style="position: absolute; top: 1835px; left: 175px; width: 70px;"><input type="button" onClick="show_prompt()" value="Click here"></form>
+      <br>
+      <br>
+      <br>
+      </span><span class="white"><br>
+      <br />
+      </span></li>
+  </ol>
+  <div class="egg1"> <img src="assets/blue.png" height="30" width="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/blue.png" height="30" width="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/blue.png" height="30" width="30">
+
+</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("menu", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

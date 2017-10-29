@@ -1,0 +1,51 @@
+.adImage1_69 {
+    width:105px;
+    vertical-align: middle;
+    display:table-cell; 
+    padding-right: 2px;
+    padding-left: 10px;
+}
+.adImage1_69 img {
+	width:100px;
+    height:75px;
+    vertical-align: middle;
+    display:table-cell;
+}
+.adBlock1_69 {
+    width:290px;
+}
+
+.adItem1_69 {
+  height: 117px;
+  overflow: hidden;
+  display: table-cell;
+}
+
+.adTitle1_69,
+.adTitle1_69:link,
+.adTitle1_69:visited,
+.adTitle1_69:hover {
+    color:blue;
+    font:bold 13px Arial,Helvetica,sans-serif;
+    text-decoration: none;
+}
+.adDescription1_69,
+.adDescription1_69:link,
+.adDescription1_69:visited,
+.adDescription1_69:hover {
+    display: inline;
+    color:#000;
+    font:13px l,Helvetica,sans-serif;
+    text-decoration: none;
+}
+.adLearnMoreLink1_69,
+.adLearnMoreLink1_69:link,
+.adLearnMoreLink1_69:visited,
+.adLearnMoreLink1_69:hover {
+    color:blue;
+    font:bold 13px 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.descrTable {
+}

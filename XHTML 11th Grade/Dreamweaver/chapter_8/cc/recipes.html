@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Carolyne's Creations</title>
+<link href="cc_styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 960px;
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+
+/* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+.header {
+	text-align: center;
+	background-color: #FFF;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+.content {
+
+	padding: 10px 0;
+}
+
+/* ~~ The footer ~~ */
+.footer {
+	font-size: 12px;
+	background-color: #C63;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="header"><img src="assets/cc_banner_with_text.jpg" alt="Carolyne's banner" width="950" height="150" border="0" usemap="#Map" />
+      <map name="Map" id="Map">
+      <area shape="rect" coords="500,130,577,147" href="index.html" target="_top" alt="Link to home page" />
+      <area shape="rect" coords="579,130,653,147" href="shop.html" target="_top" alt="Link to shop page" />
+      <area shape="rect" coords="658,130,739,149" href="classes.html" target="_top" alt="Link to classes page" />
+      <area shape="rect" coords="743,128,833,150" href="catering.html" target="_top" alt="Link to catering page" />
+      <area shape="rect" coords="839,129,933,149" href="recipes.html" target="_top" alt="Link to recipes page" />
+    </map>
+  <!-- end .header --></div>
+  <div class="content">
+    <p class="nav_bar">Caramel Coconut Pie</p>
+    <p class="body_text">This is one of our most requested desserts. It is simple,  elegant, and refreshing. It is easy to make in advance, because you keep it  frozen until just before serving. It makes two pies — one to eat and one to give  away!</p>
+    <p class="headings"><img src="assets/pie.jpg" alt="Caramel Coconut Pie" width="300" height="205" hspace="30" vspace="5" align="left" />Ingredients:</p>
+    <ul>
+      <li class="body_text">¼ cup butter</li>
+      <li class="body_text"> 7 oz. dried coconut</li>
+      <li class="body_text"> ½ cup chopped pecans</li>
+      <li class="body_text"> 1 package (8 oz.) cream cheese, softened</li>
+      <li class="body_text"> 1 can (14 oz.) sweetened condensed milk</li>
+      <li class="body_text"> 1 container (16 oz.) whipped topping, thawed</li>
+      <li class="body_text">1 jar (12 oz.) caramel ice cream topping</li>
+      <li class="body_text"> 2 pie shells (9 in.), baked </li>
+    </ul>
+    <p class="headings">Directions:</p>
+    <p class="body_text">Melt butter in large skillet. Add coconut &amp; pecans; cook  until golden brown, stirring frequently. Set aside. 
+      Combine cream cheese &amp; milk. Beat until smooth, then fold  in whipped topping. 
+      Layer ¼ of cream cheese mixture into each pie shell. Drizzle  ¼ of caramel topping on each pie. Sprinkle ¼ of coconut &amp; pecan mixture  evenly on each pie. Repeat layers. Cover &amp; freeze until firm. 
+      Let stand at room temperature for 5 minutes before serving.</p>
+    <p class="body_text"> This recipe was contributed by Cosie Simmons. </p>
+    <p class="headings">&nbsp;</p>
+</div>
+  <div class="footer">
+    <p>Carolyne's Creations Copyright 2001 - 2013</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

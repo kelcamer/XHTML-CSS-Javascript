@@ -1,0 +1,62 @@
+/* Kelsey Cameron
+Period 2
+October 30, 2011
+Web Design II */
+
+
+
+p{	
+	vertical-align: top;
+	color: #FFFFFF;
+	font-variant: small-caps;	
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+a{
+	text-decoration: overline;
+	color: #00ff77;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+div.default{
+
+	width: 200px; 
+	padding: 10px;
+	text-align: center;
+	width: auto;
+}
+body{
+	background-color: #FF9900;	
+	
+}
+blockquote{
+	border: 2px solid #0000000;
+	background-color: #ccccccc;
+
+
+
+}
+.color{
+	background-color: #330000;
+	color: #FFFFFF;
+	
+
+
+
+}
+td,th{
+
+
+border: 1px solid #FFFFFFF;
+
+
+
+
+}
+font.small {line-height:90%}
+font.big {line-height:200%;
+font-weight: 900;} 

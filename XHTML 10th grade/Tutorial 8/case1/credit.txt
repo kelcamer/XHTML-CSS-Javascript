@@ -1,0 +1,15 @@
+WEATHER FORECAST
+
+TODAY
+Partly Sunny
+
+TONIGHT
+Showers with sleet
+
+TUESDAY
+Rain/Snow heavy at times
+
+WEDNESDAY
+Clearing
+
+Click to view Weather Site

@@ -1,0 +1,85 @@
+<html>
+<head>
+<!-- 
+   New Perspectives on HTML and XHTML
+   Tutorial 3
+   Tutorial Case
+
+   Safety Palette Demo
+   Author: Patrick Carey
+   Date:   3/1/2004
+
+   Filename:         demo_safety_palette.htm
+   Supporting files: demo.gif
+-->
+<title>Safety Palette Demo</title>
+<style type="text/css">
+   body {background-color:white; font-family: Arial, Helvetica, sans-serif}
+   h2 {color:yellow; background-image: url(demo.gif); letter-spacing: 1em;
+       font-size: 1.5em; padding: 10px; margin-bottom: 0px; text-align: right}
+   p {font-size: 0.8em; padding: 10 30 10 30; border: solid 1px black; margin-top:0; background-color: ivory}
+
+   table {float: left; margin: 10 15 15 0; width:30%}
+   th, td {font-weight: bold; border: 1px solid black; font-size: 0.8em}
+   td.col {width: 10%};
+   th.blue {width: 13%; color:blue}
+   th.red {width: 26%; text-align: center; color:red}
+   th.green {text-align: center; color:green}
+
+   address {text-align: center; font-size: 8pt; border-top: 1px solid black; clear:left; font-style: normal;
+            margin-top: 15px}
+   span.btitle {font-style: italic}
+</style>
+
+
+</head>
+
+<body>
+<h2>The Safety Palette</h2>
+<p>Some monitors are limited to a palette of 256 colors. If a browser needs to 
+display a Web page containing a color that is outside of the monitor's palette, the 
+browser attempts to display the color using dithering. In the <i>dithering</i> process, 
+alternating pixels of similar colors approximate the original color's appearance. Dithering 
+can cause images to appear with jagged edges and fuzzy colors.<br /><br />
+The safety palette is a collection of 216 colors that are guaranteed to be displayed
+without dithering. The palette limits the red, green, and blue components to 
+the values: 0, 51, 102, 153, 204, and 255. Thus a color value like (204, 51, 153) would be 
+part of the safety palette, but (192, 124, 255) would not. The tables below show all of the 
+colors of the safety palette along with the values of their red, green, and blue components. 
+Note that the safety palette is only required for monitors set at a 256-color resolution. A 
+monitor with a higher color resolution will not have to employ dithering to display colors 
+outside of the safety palette.</p>
+
+
+<script type="text/javascript">
+colors=new Array ('0','51','102','153','204','255');
+for (i=0; i<=5; i++) {
+   document.write("<table>");
+   document.write("<tr><th class='red' rowspan='2' colspan='2'>red = "+colors[i]+"</th>");
+   document.write("<th class='green' colspan='6'>green</th></tr>");
+   for (j=0; j<=5; j++) {
+      document.write("<th style='color:green'>"+colors[j]+"</th>");
+   }
+   document.write("</tr>");
+   document.write("<tr><th class='blue' rowspan='6'>blue</th>");
+   for (k=0; k<=5; k++) {
+      if (k!=0) document.write("<tr>");
+      document.write("<th class='blue'>"+colors[k]+"</th>");
+      for (j=0; j<=5; j++) {
+         document.write("<td class='col' style='background-color:rgb("+colors[i]+","+colors[j]+","+colors[k]+")'>&nbsp;</td>");
+      }
+      document.write("</tr>");
+   }
+   document.write("</table>");
+}
+</script>
+
+<address>
+Carey, P.
+<span class="btitle">New Perspectives on HTML and XHTML</span>,
+Course Technology: Boston, 2004.
+</address>
+</body>
+</html>
+
+

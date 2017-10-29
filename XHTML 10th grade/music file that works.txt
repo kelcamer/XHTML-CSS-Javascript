@@ -1,0 +1,10 @@
+<embed src="rudolph.mid" type="application/x-mplayer2" autostart="true" playcount="true" loop="true" height="0" width="0">
+
+<object data="rudolph.mid" type="application/x-mplayer2" width="0" height="0">
+<param name="filename" value="rudolph.mid">
+<param name="autostart" value="1">
+</object>
+
+
+<embed type="application/x-mplayer2" src="rudolph.mid" height="0" width="0" autostart="1">
+<noembed><bgsound src="rudolph.mid" loop="1" /></noembed>

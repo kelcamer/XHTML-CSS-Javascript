@@ -1,0 +1,670 @@
+﻿.altText {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+.uas_wait,.uas_wait * {
+cursor:wait !important;
+}
+
+/* styles for modal */
+#colorbox,#cboxOverlay,#cboxWrapper {
+position:absolute;
+top:0;
+left:0;
+z-index:2147483646; /* browser max 2147483647. -1 necessary to show firebug dev overlays */
+overflow:hidden;
+}
+
+#cboxOverlay {
+background:#000;
+position:fixed;
+width:100%;
+height:100%;
+}
+
+#cboxMiddleLeft,#cboxBottomLeft {
+clear:left;
+}
+
+#cboxLoadedContent {
+overflow:hidden;
+position:relative;
+}
+
+#cboxLoadedContent iframe {
+display:block;
+width:100%;
+height:100%;
+border:0;
+}
+
+#cboxLoadingOverlay,#cboxLoadingGraphic {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+}
+
+#uas_holder {
+background:#f6f6f6;
+color:#333;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+margin:8px;
+min-height:130px;
+padding:10px 14px;
+text-align:left;
+width:480px;
+border-radius:10px 10px 7px 7px;
+-moz-border-radius:10px 10px 7px 7px;
+-webkit-border-radius:10px 10px 7px 7px;
+box-shadow:0 3px 15px rgba(0,0,0,0.9);
+-moz-box-shadow:0 3px 15px rgba(0,0,0,0.9);
+-webkit-box-shadow:0 3px 15px rgba(0,0,0,0.9);
+}
+
+#uas_holder a {
+font-weight:normal;
+text-decoration:none;
+}
+
+#uas_holder input,#uas_holder select {
+border:1px solid #c6c6c6;
+color:#666;
+font-size:12px;
+padding:5px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+#uas_holder a:focus {
+outline:1px dotted #666;
+}
+
+#uas_holder .simplemodal-close:focus {
+outline:1px dotted #d9d9d9;
+}
+
+.simplemodal-close {
+background:url(http://i.usatoday.net/asp/uas3/_images/close_button.gif) no-repeat;
+position:absolute;
+height:11px;
+overflow:hidden;
+width:12px;
+right:28px;
+top:20px;
+}
+
+#uas_masthead {
+overflow:hidden;
+clear:both;
+}
+
+.uas_fraction#rememberme {
+padding-top:6px;
+}
+
+.uas_fraction input.large,.uas_fraction select.large {
+width:278px;
+}
+
+.uas_fraction input.medium,.uas_fraction select.medium {
+width:160px;
+}
+
+.uas_fraction input.small {
+width:106px;
+}
+
+.uas_fraction select.small {
+width:100px;
+}
+
+.uas_fraction select.x-small {
+width:70px;
+}
+
+.uas_label {
+clear:left;
+color:#4b4b4b;
+display:block;
+font-size:13px;
+padding-bottom:4px;
+}
+
+.uas_label.inline {
+float:left;
+margin-top:7px;
+width:60px;
+}
+
+.uas_label.inline.reg.zag {
+width:60px;
+}
+
+#uas_birthyear_fraction .uas_label.inline.reg {
+padding-right:10px;
+width:auto;
+}
+
+.uas_label.block {
+display:block;
+margin:4px 0;
+}
+
+#zag_fields_top {
+border-top:1px solid #ccc;
+margin-top:5px;
+padding-top:10px;
+}
+
+#uas_screen2 {
+float:left;
+}
+
+#uas_screen2 .uas_fraction {
+float:left;
+padding:0 0 8px;
+}
+
+#uas_register .radio {
+height:28px;
+line-height:27px;
+}
+
+#uas_register input[type=radio] {
+position:relative;
+top:2px;
+}
+
+#uas_screen2 .radioLabel {
+color:#4b4b4b;
+font-size:12px;
+padding:0 5px 0 2px;
+}
+
+#uas_gender_fraction,#uas_country_fraction,#uas_birthyear_fraction,#uas_zip_fraction,#uas_industry_fraction,#uas_jobsize_fraction {
+float:left;
+}
+
+#uas_country_fraction,#uas_birthyear_fraction,#uas_industry_fraction {
+margin-right:20px;
+}
+
+#uas_holder #uas_birthyear_fraction .newList,#uas_holder #uas_jobsize_fraction .newList {
+width:118px;
+}
+
+#uas_description.large {
+height:30px;
+width:360px;
+}
+
+#top_interests .large {
+width:310px;
+}
+
+#uas_register .loading {
+background:url(http://i.usatoday.net/asp/uas3/_images/loading_circles.gif) no-repeat;
+display:inline-block;
+height:16px;
+width:16px;
+position:relative;
+left:10px;
+top:3px;
+}
+
+#uas_register #uas_navigation .loading {
+top:13px;
+}
+
+#uas_register .regError {
+color:#c00000;
+font-weight:bold;
+}
+
+#uas_register .regError .success {
+color:#333;
+}
+
+#uas_register #uas_signin_failure,#uas_register #uas_register_failure,#userMessage {
+font-size:13px;
+margin-bottom:10px;
+padding:0;
+}
+
+#userMessage {
+margin:15px 0 0 0;
+}
+
+#uas_split .uas_header {
+font-size:14px;
+font-weight:bold;
+margin:0 6px 0 0;
+}
+
+#uas_register h3,#uas_register a,#uas_register .input_help {
+color:#4b4b4b;
+}
+
+#uas_masthead li a, #uas_register .footer_links a {
+color:#00529B;
+}
+
+#uas_masthead li {
+display:inline;
+padding-right:5px;
+}
+
+#uas_register #uas_navigation a {
+color:#fff;
+}
+
+#uas_register h3, #uas_register h3 a {
+font-size:13px;
+font-weight:bold;
+margin:10px 0;
+}
+
+#uas_register h3 a {
+text-decoration:underline;
+}
+
+.input_help {
+display:inline;
+font-size:12px;
+font-weight:bold;
+padding-left:10px;
+text-decoration:none;
+*position:relative;
+*top:-12px;
+}
+
+#uas_register h3.split {
+color:#040404;
+font-size:16px;
+margin:10px 0;
+}
+
+#componentDiv {
+border:1px solid #c6c6c6;
+margin:14px 0;
+padding:5px;
+height:32px;
+width:278px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+/* powered by Gigya styles */
+#componentDiv td span {
+position:absolute;
+right:118px;
+top:86px;
+}
+
+#uas_oid_fraction #componentDiv td span {
+top:146px;
+}
+
+#componentDiv td span span {
+position:static;
+}
+
+#usat_login input[type=checkbox] {
+margin-bottom:0;
+position:relative;
+top:2px;
+}
+
+#uas_steps {
+font-size:18px;
+font-weight:bold;
+letter-spacing:-1px;
+background-color:#00529B;
+color:#FFF;
+padding:2px 8px 4px;
+}
+
+#oid_option.uas_register {
+display:block;
+}
+
+#bad_uas_options {
+display:none;
+height:0;
+}
+
+#uas_icons {
+height:75px;
+border:solid 1px;
+width:360px;
+margin-bottom:10px;
+background-color:#CCC;
+}
+
+#uas_register a.uas_navButton {
+font-weight:bold;
+color:#FFFFFF;
+background-color:#666;
+float:left;
+margin:10px 10px 0 0;
+text-align:center;
+text-decoration:none;
+text-transform:uppercase;
+background:url(http://i.usatoday.net/asp/uas3/_images/login_button_bg.gif) no-repeat;
+font-size:15px;
+line-height:28px;
+height:28px;
+width:94px;
+}
+
+#uas_register #uas_navigation_finish {
+float:right;
+margin-right:0;
+}
+
+#uas_register_footer {
+padding-top:10px;
+text-align:center;
+}
+
+.uas_label.interests {
+float:left;
+margin:2px 10px 0 0;
+width:40px;
+}
+
+#uas_register select {
+height:30px;
+margin-right:15px;
+margin-bottom:6px;
+font-size:11px;
+}
+
+#uas_register input {
+margin-bottom:8px;
+font-size:12px;
+padding-bottom:6px;
+}
+
+#uas_register input#uas_file_browse {
+height:24px;
+margin-bottom:10px;
+width:300px;
+}
+
+#oid_option {
+display:none;
+margin:10px 0;
+}
+
+#uas_register h3#uas_directions {
+}
+
+.oid_selections {
+float:left;
+width:140px;
+margin-top:5px;
+}
+
+.oid_instructions {
+float:left;
+border:solid 1px #CCC;
+width:180px;
+padding:6px;
+background:#f1f1f1;
+margin-top:5px;
+}
+
+#uas_screen1,#uas_screen2,#uas_screen3,#uas_screen4,#uas_screen5,.uas_options_section{
+clear:both;
+display:none;
+}
+
+.uas_options_section.active {
+display:block;
+}
+
+#uas_options_nav {
+font-size:11px;
+margin:8px 0 10px;
+}
+
+#uas_options_nav li a {
+font-weight:normal;
+padding-right:5px;
+}
+
+#uas_options_nav li a.inactive {
+cursor:text;
+font-weight:bold;
+}
+
+.uas_options_section p, #uas_screen5 p {
+font-size:12px;
+}
+#currentUsername,#currentEmail {
+margin:2px 0 10px;
+}
+#currentUsername span,#currentEmail span {
+font-weight:bold;
+}
+
+
+#uas_screen1 H2 {
+margin-right:5px;
+}
+
+#uas_password_entry div {
+float:left;
+display:inline;
+margin-right:10px;
+}
+
+.usat_option #uas_captcha {
+margin-bottom:6px;
+}
+
+#uas_holder h2 {
+color:#4b4b4b;
+font-size:22px;
+font-weight:normal;
+line-height:26px;
+margin:0;
+}
+
+#uas_company_size div.uas_field {
+width:102px;
+overflow:hidden;
+}
+
+#uas_company_size div.uas_field select {
+width:102px;
+}
+
+/* pretty checkboxes customizable styles */
+label.checkbox span.holder {
+height:61px;
+background:url(http://i.usatoday.net/asp/uas3/_images/checkbox.gif) 0 0 no-repeat;
+}
+
+label.radio span.holder {
+height:61px;
+}
+
+label.checked span.holder,label.checked span.holder,label.checked:hover span.holder,label.checked:hover span.holder {
+top:-20px !important;
+}
+
+/* pretty checkboxes core styles - do not modify */
+label.list {
+float:left;
+clear:left;
+margin:0 0 5px;
+}
+
+label.inline {
+float:left;
+margin:0 10px 0 0;
+}
+
+input.hiddenCheckbox {
+position:absolute;
+left:-10000px;
+}
+
+label.prettyCheckbox span.holderWrap {
+display:block;
+float:left;
+position:relative;
+top:-2px;
+margin-right:5px;
+overflow:hidden;
+}
+
+label.prettyCheckbox span.holder {
+display:block;
+position:absolute;
+top:0;
+left:0;
+}
+
+/* stylish select boxes */
+#uas_holder .stylish-select ul.newList {
+left:-9999px;
+}
+
+#uas_holder ul.newList a {
+color:#666;
+text-decoration:none;
+display:block;
+}
+
+#uas_holder ul.newList {
+margin:0;
+padding:0;
+list-style:none;
+color:#666;
+width:252px;
+background:#fff;
+position:absolute;
+border:1px solid #c6c6c6;
+top:22px;
+left:0;
+overflow:auto;
+overflow-y:auto;
+overflow-x:hidden;
+z-index:9999;
+min-width:60px;
+}
+
+#uas_holder .newListSelected {
+width:255px;
+color:#666;
+height:28px;
+float:left;
+font-size:12px;
+background:#fff url(http://i.usatoday.net/asp/uas3/_images/select_box_arrow.png) no-repeat right 9px;
+}
+
+#uas_holder .newListSelected span {
+width:250px;
+display:block;
+}
+
+#uas_holder ul.newList li a {
+padding:3px 6px;
+display:block;
+}
+
+#uas_holder ul.newList li a:focus {
+-moz-outline-style:none;
+}
+
+#uas_holder .selectedTxt {
+overflow:hidden;
+height:16px;
+border:1px solid #c6c6c6;
+color:#666;
+padding:5px 24px 5px 5px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+#uas_holder .hiLite,#uas_holder .hiLite a,#uas_holder .hiLite.newListHover {
+background:#3d3d3d !important;
+color:#fff !important;
+}
+
+#uas_holder .newListHover {
+background:#ccc !important;
+color:#000 !important;
+cursor:default;
+}
+
+#uas_holder .newListSelHover,#uas_holder .newListSelFocus {
+cursor:default;
+}
+
+#uas_holder .newListOptionTitle {
+font-weight:bold;
+}
+
+#uas_holder .newListOptionTitle ul {
+margin:3px 0 0;
+}
+
+#uas_holder .newListOptionTitle li {
+font-weight:normal;
+border-left:1px solid #ccc;
+}
+
+.usat_option,#oid_select,#cboxClose {
+display:none;
+}
+
+#cboxTitle,#uas_register #uas_screen2 input[type=text],.usat_option .uas_fraction {
+margin:0;
+}
+
+#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow,div.fileinputs:hover,.fakefile img:hover {
+cursor:pointer;
+}
+
+#uas_container form,#uas_container table,#uas_holder ul.newList * {
+margin:0;
+padding:0;
+}
+
+.uas_fraction,#uas_navigation {
+clear:both;
+}
+
+.uas_label.inline.reg,#uas_jobsize_fraction .uas_label.inline.reg.zag,#uas_holder #uas_birthyear_fraction .newListSelected,#uas_holder #uas_jobsize_fraction .newListSelected {
+width:120px;
+}
+
+.uas_error_notification {
+overflow:hidden;
+z-index:2147483647;
+width:100%;
+text-align:center;
+position:absolute;
+top:0;
+left:0;
+background-color:#f6f6f6;
+height:0;
+color:#c00000;
+font:20px/40px arial, sans-serif;
+border-bottom:1px solid #c6c6c6;
+}

@@ -1,0 +1,151 @@
+body {
+	background-image: url(green.jpg);
+	margin: 50px;
+	width: 1200px;
+	height: 100%;
+}
+
+
+div.main{
+	position: absolute;
+	width: 815px;
+	height: 485px;
+	left: 197px;
+	top: 94px;
+		
+	
+	
+	
+	
+}
+div.farm{
+	background-color: #000;
+	position: absolute;
+	left: 124px;
+	top: 90px;
+	color: #FF3;
+	border: 1px solid #FFF;
+	
+	
+	
+}
+table.tab{
+	background-color: #000;
+	font-weight: bold;
+	color: #FF3;
+	
+	
+	
+	
+}
+div.align{
+	text-align: left;	
+	
+	
+	
+}
+img{
+	height: 200px;
+	width: 200px;
+	
+	
+	
+}
+img.diagram{
+	height: 600px;
+	width: 800px;
+	hspace: 50px;
+	vertical-align: middle;
+	float: right;
+	image-orientation: 90deg;
+}
+h1{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	color: #FF3;	
+	text-align: center;
+	
+}
+h2{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #FF3;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	
+	
+	
+}
+h3, h4, h5{
+	
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #FF3;	
+	text-align: center;
+}
+
+a:link { color: yellow; text-decoration: none }
+a:active { color: yellow; text-decoration: none }
+a:visited { color: green; text-decoration: none }
+a:hover { color: blue; text-decoration: underline }
+
+.header {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	color: #FF3;
+	text-align: center;
+}
+hr{
+	color: white;
+	width: 800px;
+	height: 10px;
+		
+	
+	
+}
+.bodyt {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	color: #FF3;
+	font-weight: bold;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	margin-left: 150px;
+}
+.tip {
+	color: #FFF;
+	background-color: #F33;
+	text-align: left;
+	font-weight: bolder;
+}
+.red {
+	font-size: 16px;
+	color: #C03;
+}
+.yellow {
+	font-size: 16px;
+	color: #FF0;
+}
+.blue {
+	font-size: 16px;
+	color: #00F;
+}
+.green {
+	font-size: 16px;
+	color: #0F0;
+}
+
+
+
+.emph {
+	font-size: 18px;
+}
+.but {
+	font-size: 36px;
+}

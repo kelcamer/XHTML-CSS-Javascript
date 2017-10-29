@@ -1,0 +1,82 @@
+.list_headings {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #003;
+}
+.small_text {	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 750px;
+}
+.body_text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+div.banner{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 923px;
+	height: 139px;
+	background-image: url(Assets/people.jpg);
+	font-family: "Stencil";
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	left: auto;
+
+
+}
+div.body{
+	background-color: #999999;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 50px;
+	width: 600px;
+	height: 600px;
+	color: #00FF00;
+	left: -65px;
+	top: 228px;
+
+
+
+}
+div.text{
+
+	background-color: #999999;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 400px;
+	height: 400px;
+	color: #00FF00;
+
+
+
+}
+div.image{
+	background-color: #FFFF33;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 50px;
+	width: 300px;
+	height: 500px;
+	left: -13px;
+	top: 260px;
+
+
+
+
+}
+h1{
+	color: #FFFFFF;
+	font-family: Snap ITC;
+	font-size: 20px;
+	text-align: center;
+
+
+}

@@ -1,0 +1,23 @@
+.links {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;	
+}
+
+body.main {background: url(banner2.jpg); 
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-color: #70F1EE;
+	}
+
+:link {color: #663333;}
+:visited {color: #99CC99;}
+
+
+
+.colortext {
+	font-size: 2em;
+	font-weight: bold;
+	color: #F54316;
+	text-align: right;
+}

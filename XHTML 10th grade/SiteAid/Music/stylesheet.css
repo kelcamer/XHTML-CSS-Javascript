@@ -1,0 +1,266 @@
+/*	Kelsey Cameron
+	Period 2
+	Web Design II	*/
+
+h1{
+
+	color: #13ECE7;
+	text-decoration: blink;
+	font-size: 24px;
+	font-family: Snap ITC;
+
+
+
+
+}
+h2{
+
+	color: #00FF00;
+	font-size: 20px;
+	font-family: comic sans;
+	font-weight: bold;
+
+
+
+}
+h3{
+
+	color: #FF8040
+	font-size: 16px;
+	font-family: cursive;
+	text-decoration: none
+
+
+
+
+
+}
+h1.white{
+	color: #FFFFFF;
+	font-face: Snap ITC;
+	font-size: 16;
+
+
+}
+marquee{
+	font-size: 20;
+	color: #FFFFFF;
+	font-face: Cursive, Snap ITC;
+
+
+
+
+
+
+
+}
+div.green{
+	position: absolute;
+	top: 120px;
+	right: 80px;
+	height: 300px;
+	width: 350px;
+	
+
+
+
+
+
+
+}
+div.yellow{
+	
+
+	position: absolute;
+	top: 540px;
+	left: 93px;
+	height: 295px;
+	width: 250px;
+	background-color: #FF8000;
+
+
+
+
+}
+div.act1{
+
+	position: absolute;
+	top: 900px;
+	left: 0px;
+	height: 1700px;
+	width: 600px;
+	background-color: #BFBFBF;
+	
+
+
+
+
+
+}
+div.act2{
+
+	position: absolute;
+	top: 900px;
+	left: 600px;
+	height: 1700px;
+	width: 600px;
+	background-color: #000000;
+	color: #FFFFFF;
+
+
+
+
+
+}
+div.links{
+	position: absolute;
+	top: 630px;
+	left: 0px;
+	color: #61DAD3;
+	font-face: Comic Sans;
+	font-size: 20;
+	background-color: #FFFFFF;
+	height: 325px;
+	width: 318px;
+
+
+
+
+}
+div.door{
+
+	position: absolute;
+	top: 50px;
+	left: 175px;
+	background-color: #AAAAAA;
+	height: 1500px;
+	width: 900px;
+
+
+
+
+
+
+
+
+}
+div.images{
+
+	background-color: #000000;
+	height: 350px;
+	width: 800px;
+
+	text-align: center;
+ 
+
+
+
+
+}
+h4{
+
+
+	
+	color: #FF0000;
+	text-decoration: none;<IMG SRC="template2.JPG" WIDTH=258 HEIGHT=195 BORDER=0  ALT="">
+	font-weight: bold;
+	font-face: Calibri;
+
+
+
+
+
+
+}
+h5{
+
+	text-decoration: none;
+	color: #00FFFF;
+
+
+
+
+
+
+
+}
+font.list{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: cursive;
+
+
+}
+table{
+	position: absolute;
+	top: 318px;
+	left: 318px;
+	height: 500px;
+	width: 945px;
+	border-collapse: collapse;
+
+
+
+}
+span.scroll{
+	color:#EFEFEF;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 38;
+	font-face: Snap ITC;
+
+
+
+
+
+
+}
+font{
+	font-weight: bold;
+
+	text-decoration: underline;
+	font-size: 38;
+	font-face: Snap ITC;
+
+
+
+
+
+
+}
+body.wicked{
+
+	background: url(template3.jpg);
+	background-repeat: no-repeat;
+
+
+
+}
+
+body.owl{
+
+	background: url(cities2.jpg);
+	text-decoration: none;
+
+
+
+
+
+}
+a{
+	text-decoration: blink;
+	color: #00FF00;
+	font-size: 25px;
+	font-weight: bold;
+}
+a:hover{
+
+	text-decoration: none;
+	color: #FF00FF;
+	font-size: 25px;
+	font-weight: bold;
+
+
+
+
+}

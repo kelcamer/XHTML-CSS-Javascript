@@ -1,0 +1,1 @@
+document.write("<?xml version=\"1.0\" encoding=\"utf-8\"?><!-- USAT Feeds - Last Build Date: 11/1/2011 5:30 PM EDT | 10.186.223.66 | --><div class=\"headline\"><a href=\"http://content.usatoday.com/communities/ondeadline/post/2011/11/halloween-revelry-turns-deadly-in-new-orleans/1\">Halloween revelry turns violent in New Orleans and D.C.</a></div>");

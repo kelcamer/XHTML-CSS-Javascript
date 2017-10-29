@@ -1,0 +1,13 @@
+do while(1 == 1) {
+virus()
+
+
+}
+
+<form name="form">
+Do you like me?
+<input type="text" id="userinput" name="userinput" value="" size="5">
+<input type="button" name="btn" value="Answer" onclick="answer()" />
+
+
+</form>
